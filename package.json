@@ -1,0 +1,18 @@
+{
+  "name": "mikro-orm-example-fk-constraint-em",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mikro-orm/core": "^6.3.6",
+    "@mikro-orm/postgresql": "^6.3.6",
+    "expect": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

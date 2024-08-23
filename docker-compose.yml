@@ -1,0 +1,15 @@
+# Initialize and run a PostgreSQL database for local development.
+# WARNING: This configuration is not intended for production use.
+
+services:
+  postgres:
+    container_name: mikro-orm-test-postgres
+    image: postgres:15.3
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data/postgres:/data/mikro-orm-test-postgres
+    environment:
+      POSTGRES_USER: "your_db_user"
+      POSTGRES_PASSWORD: "your_db_password"
+      POSTGRES_DB: "test_db"
